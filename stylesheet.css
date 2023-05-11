@@ -145,6 +145,11 @@ name {
   font-size: 32px;
 }
 
+cname {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
 .one {
   width: 160px;
   height: 160px;
