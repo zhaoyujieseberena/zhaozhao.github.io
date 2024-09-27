@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自定义鼠标光标</title>
+    <style>
+      /* 应用到整个页面 */
+      body {
+        cursor: url("images/curse.png"), auto;
+      }
+
+      /* 应用到特定元素 */
+      .custom-cursor {
+        cursor: url("images/curse.png"), auto;
+      }
+    </style>
+  </head>
+  <body>
+    <p>全文使用自定义光标。</p>
+    <div class="custom-cursor">只有在这个区域内鼠标会变成自定义光标。</div>
+  </body>
+</html>
